@@ -1,0 +1,13 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Match fallback font metrics to the web font
+text: >-
+  Use the size-adjust, ascent-override, descent-override and line-gap-override descriptors
+  to match a fallback font's metrics to the web font, minimising the shift when the web
+  font swaps in.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Font Metrics"

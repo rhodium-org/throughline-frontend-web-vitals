@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Web Font Loading
+text: >-
+  Rules for delivering web fonts efficiently and without layout shift or invisible text.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Web Fonts"

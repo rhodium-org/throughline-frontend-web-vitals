@@ -1,0 +1,12 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Break up long tasks
+text: >-
+  Break up long-running work in event callbacks into smaller separate tasks so the main
+  thread is free to run other interactions and paint sooner.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Long Tasks"

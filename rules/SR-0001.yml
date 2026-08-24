@@ -1,0 +1,13 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Keep Largest Contentful Paint at or below 2.5 seconds
+text: >-
+  Largest Contentful Paint measures loading performance as the render time of the largest
+  content element visible in the viewport; keep it at or below 2.5 seconds for a good
+  experience.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds — LCP"

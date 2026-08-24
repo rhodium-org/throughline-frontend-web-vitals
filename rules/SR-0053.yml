@@ -1,0 +1,12 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Compress text resources with Brotli or gzip
+text: >-
+  Compress text-based resources such as HTML, CSS and JavaScript with Brotli or gzip to
+  cut their transfer size over the network.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Caching and Delivery — Compression"

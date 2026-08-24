@@ -1,0 +1,12 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Reduce JavaScript payload with code splitting
+text: >-
+  Split JavaScript so each route or interaction loads only the code it needs, rather than
+  shipping one large bundle up front.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Code Splitting"

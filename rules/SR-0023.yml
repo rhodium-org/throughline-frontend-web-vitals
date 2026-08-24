@@ -1,0 +1,12 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Keep a consistent aspect ratio across responsive image variants
+text: >-
+  Give all responsive variants of an image the same aspect ratio so the browser can
+  compute and reserve the element's height before any variant has downloaded.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Responsive Aspect Ratio"

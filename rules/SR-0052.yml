@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Fingerprint static assets to cache safely and forever
+text: >-
+  Add a content hash to the filename of each versioned static asset so it can be cached
+  immutably and a change ships under a new URL rather than a stale cache.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Caching and Delivery — Fingerprinting"

@@ -1,0 +1,13 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Assess each metric at the 75th percentile across mobile and desktop
+text: >-
+  Evaluate each Core Web Vital against its threshold at the 75th percentile of page loads,
+  segmented across mobile and desktop devices, so the page is good for the vast majority
+  of real users rather than only the average case.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds — Measurement"

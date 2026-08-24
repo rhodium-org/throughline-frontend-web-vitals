@@ -1,0 +1,12 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Largest Contentful Paint
+text: >-
+  Rules for rendering the largest above-the-fold content element quickly (loading
+  performance).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP"

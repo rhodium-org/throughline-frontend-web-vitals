@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Eliminate render-blocking stylesheets
+text: >-
+  Reduce or inline critical CSS and defer the rest so stylesheets do not block the
+  rendering of the LCP element.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Render-Blocking CSS"

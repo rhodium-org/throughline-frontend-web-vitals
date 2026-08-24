@@ -1,0 +1,12 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Avoid long critical request chains
+text: >-
+  Avoid long chains of dependent critical requests, because each additional round trip
+  delays the first paint and the LCP.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Critical Request Chains"

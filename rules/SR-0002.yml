@@ -1,0 +1,13 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Keep Interaction to Next Paint at or below 200 milliseconds
+text: >-
+  Interaction to Next Paint measures responsiveness as the latency of a page's
+  interactions; keep it at or below 200 milliseconds for a page that feels genuinely
+  interactive.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds — INP"

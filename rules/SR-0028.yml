@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Choose a font-display strategy that avoids reflow
+text: >-
+  Use font-display: optional, or explicit fallback fonts, to avoid the re-layout that
+  occurs when a late-arriving web font replaces the fallback text.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Font Display"

@@ -1,0 +1,12 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Interaction to Next Paint
+text: >-
+  Rules for responding to user input promptly so the next frame is painted quickly
+  (responsiveness).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP"

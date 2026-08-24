@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Use content-visibility to defer offscreen rendering
+text: >-
+  Apply the CSS content-visibility property to lazily render offscreen elements as they
+  approach the viewport, reducing rendering work during load and interactions.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Content Visibility"

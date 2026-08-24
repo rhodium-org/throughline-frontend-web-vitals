@@ -1,0 +1,15 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Pages load fast, respond quickly and stay visually stable for real users
+text: >-
+  Google's Web Vitals guidance exists so that a web page delivers a good real-world user
+  experience across its whole lifecycle: it renders its main content quickly, responds
+  promptly to user input, and does not shift about unexpectedly under the reader. These
+  qualities are quantified by the Core Web Vitals — Largest Contentful Paint, Interaction
+  to Next Paint and Cumulative Layout Shift — measured at the 75th percentile of page
+  loads across mobile and desktop, so that a passing site is fast for the vast majority of
+  its users rather than only in ideal conditions.
+normative: false
+attrs:
+  source_ref: "Google Web Vitals"

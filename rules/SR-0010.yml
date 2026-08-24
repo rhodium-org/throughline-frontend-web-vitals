@@ -1,0 +1,12 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Deprioritise resources that contend with the LCP resource
+text: >-
+  Deprioritise non-critical resources with fetchpriority="low" so they do not contend for
+  bandwidth with the LCP resource during the initial load.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP — Network Contention"

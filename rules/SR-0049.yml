@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Declare @font-face early to enable early discovery
+text: >-
+  Place @font-face declarations where they are discovered early — inline in the head or a
+  preloaded stylesheet — so the browser can begin fetching fonts sooner.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Web Fonts — Font Face Declaration"

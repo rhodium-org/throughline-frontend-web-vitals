@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Cumulative Layout Shift
+text: >-
+  Rules for keeping the page visually stable so content does not move unexpectedly.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS"

@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Keep the DOM small
+text: >-
+  Keep the page's DOM small, because a large DOM requires more work to render and
+  increases the time to present a frame after an interaction.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — DOM Size"

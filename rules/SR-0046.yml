@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Subset fonts to the characters actually used
+text: >-
+  Subset each font to the glyphs the site actually uses, which sharply reduces file size,
+  especially for large character-set languages.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Web Fonts — Subsetting"

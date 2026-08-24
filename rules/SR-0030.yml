@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Keep pages eligible for the back/forward cache
+text: >-
+  Ensure pages remain eligible for the back/forward cache so that returning to a
+  previously visited page restores it instantly without re-running layout shifts.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Back/Forward Cache"

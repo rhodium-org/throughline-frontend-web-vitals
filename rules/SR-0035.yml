@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Lazy-load offscreen images
+text: >-
+  Apply loading="lazy" to below-the-fold images so they are fetched only as they approach
+  the viewport — but never to the LCP image.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Image and Media — Lazy Loading"

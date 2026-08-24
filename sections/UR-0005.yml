@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Image and Media Optimisation
+text: >-
+  Rules for serving images and other media efficiently and without regressing the vitals.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Image and Media"

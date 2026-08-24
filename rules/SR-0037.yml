@@ -1,0 +1,12 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Load non-critical scripts with async or defer
+text: >-
+  Add the async or defer attribute to non-critical scripts so they do not block parsing
+  and rendering of the page.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Async and Defer"

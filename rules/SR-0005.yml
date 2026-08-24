@@ -1,0 +1,13 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Measure vitals with real-user field data, not lab data alone
+text: >-
+  Base your Core Web Vitals assessment on real-user field data (such as the Chrome User
+  Experience Report), because lab measurements cannot capture the range of devices,
+  networks and interactions real users bring.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds — Field Data"

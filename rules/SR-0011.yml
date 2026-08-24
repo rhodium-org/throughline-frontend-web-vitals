@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Render main content on the server
+text: >-
+  Use server-side rendering or static generation so the main content and its LCP element
+  are present in the initial HTML and do not wait on client-side JavaScript to render.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP — Server-Side Rendering"

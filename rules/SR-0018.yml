@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Avoid layout thrashing
+text: >-
+  Do not write styles and then synchronously read back layout in the same task, because
+  forced synchronous layout (layout thrashing) delays frame presentation.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Layout Thrashing"

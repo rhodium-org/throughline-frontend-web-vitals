@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: Preload critical fonts
+text: >-
+  Preload the fonts required for above-the-fold text with rel=preload so they are
+  requested early and do not delay first text render.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Web Fonts — Preload"

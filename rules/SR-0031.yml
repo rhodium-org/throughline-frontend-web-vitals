@@ -1,0 +1,12 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Serve images in modern formats
+text: >-
+  Serve images in modern formats such as WebP or AVIF, which compress substantially better
+  than legacy JPEG and PNG for the same visual quality.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Image and Media — Modern Formats"

@@ -1,0 +1,12 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Avoid rendering large amounts of HTML from JavaScript
+text: >-
+  Avoid rendering large amounts of HTML on the client, because the browser cannot yield
+  until parsing completes, delaying frame presentation after an interaction.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Client-Side Rendering"

@@ -1,0 +1,12 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Make the LCP resource discoverable in the initial HTML
+text: >-
+  Ensure the LCP resource is discoverable from the HTML source so the browser can start
+  fetching it as early as possible, rather than discovering it only after scripts run.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP — Resource Discovery"

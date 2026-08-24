@@ -1,0 +1,12 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: Reduce the number of font weights and styles
+text: >-
+  Limit the number of distinct font weights and styles, or use a single variable font, so
+  the page downloads fewer font files.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Web Fonts — Font Variety"

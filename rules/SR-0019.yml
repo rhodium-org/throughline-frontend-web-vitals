@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Reduce input delay caused by script during load
+text: >-
+  Minimise script parsing, compilation and evaluation during page load, because the
+  resulting long tasks create input delay when the user interacts early.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Input Delay"

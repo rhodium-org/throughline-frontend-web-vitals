@@ -1,0 +1,12 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Apply an efficient Cache-Control policy to static assets
+text: >-
+  Serve static assets with a long-lived Cache-Control policy so repeat visitors load them
+  from cache instead of over the network.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Caching and Delivery — Cache-Control"

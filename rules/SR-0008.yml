@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Set fetchpriority=high on the LCP image
+text: >-
+  Add fetchpriority="high" to the LCP image so the browser prioritises its download over
+  less important resources.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP — Fetch Priority"

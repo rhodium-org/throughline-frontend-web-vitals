@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Animate with transform, not layout-triggering properties
+text: >-
+  Animate with composited properties such as transform (translate, scale, rotate, skew)
+  rather than properties like top, left or width that trigger layout and cause shifts.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Animations"

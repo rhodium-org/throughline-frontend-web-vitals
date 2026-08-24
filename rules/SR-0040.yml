@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Remove unused JavaScript and CSS
+text: >-
+  Remove unused JavaScript and CSS through tree-shaking and dead-code elimination so the
+  browser does not download, parse and execute code the page never uses.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Unused Code"

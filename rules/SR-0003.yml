@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Keep Cumulative Layout Shift at or below 0.1
+text: >-
+  Cumulative Layout Shift measures visual stability as the sum of unexpected layout
+  shifts; keep the score at or below 0.1 to avoid disruptive movement.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds — CLS"

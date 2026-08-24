@@ -1,0 +1,12 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Inline only very small critical scripts
+text: >-
+  Keep script inline in the HTML only when the code is small and genuinely critical, to
+  avoid trading a render-block for an extra network request.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Inlining Scripts"

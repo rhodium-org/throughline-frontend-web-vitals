@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Preload the LCP resource
+text: >-
+  Preload the LCP resource with a rel=preload link hint when it would otherwise be
+  discovered late, so its download starts as soon as possible.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize LCP — Preload"

@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Run only render-critical logic before the next paint
+text: >-
+  Limit the work done in an interaction callback before yielding to only the logic needed
+  for the next visual update, deferring everything else to a later task.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Prioritise Rendering"

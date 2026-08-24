@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Caching and Delivery
+text: >-
+  Rules for serving and caching resources so repeat and distant visitors get them fast.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: Caching and Delivery"

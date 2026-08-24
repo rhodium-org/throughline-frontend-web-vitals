@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Reserve space for late-loading ads, embeds and iframes
+text: >-
+  Reserve viewport space for ads, embeds and iframes ahead of time with min-height or
+  aspect-ratio so their arrival does not push existing content down.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — Reserve Space"

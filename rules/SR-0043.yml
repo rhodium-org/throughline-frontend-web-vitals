@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Inline critical CSS and defer the remainder
+text: >-
+  Inline the small amount of CSS needed for above-the-fold content and load the remaining
+  styles lazily, so the first paint is not blocked on a full stylesheet.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Critical CSS"

@@ -1,0 +1,13 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Let the user initiate loading of additional content
+text: >-
+  Have the user initiate the loading of new content, for example with a Load More button,
+  so any resulting shift is expected; shifts within 500ms of user input are excluded from
+  CLS.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize CLS — User-Initiated Loading"

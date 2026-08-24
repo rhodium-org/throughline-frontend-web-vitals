@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: JavaScript and Resource Loading
+text: >-
+  Rules for shipping, loading and executing scripts and other resources so they do not
+  block rendering or the main thread.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources"

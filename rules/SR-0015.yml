@@ -1,0 +1,12 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Yield to the main thread during long work
+text: >-
+  Yield to the main thread periodically during long work so the browser can process
+  pending interactions and render the next frame between chunks of work.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: Optimize INP — Yielding"

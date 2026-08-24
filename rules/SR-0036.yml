@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Do not add render-blocking synchronous scripts to the head
+text: >-
+  It is almost never necessary to add a synchronous script (one without async or defer) to
+  the <head>; such scripts block rendering until they download and execute.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Web Vitals: JavaScript and Resources — Render-Blocking Scripts"
