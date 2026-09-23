@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses Google's Web Vitals / web.dev performance guidance as a grounded IDD graph
-so consuming projects can compose it with throughline-compose.
+so consuming projects can compose it with throughline.
 
 Google's Web Vitals and web.dev content is published by Google under the Creative Commons
 Attribution 4.0 License (CC BY 4.0); its code samples are licensed under Apache 2.0. The
