@@ -1,6 +1,6 @@
 [project]
 name = "Google Web Vitals frontend performance (throughline source)"
-format_version = 3
+format_version = 4
 
 # A throughline *source*: a standalone graph a consuming project composes with
 # `tl`, importing it under a namespace (e.g. `webvitals`) and referencing
