@@ -1,12 +1,12 @@
 uid: SR-0041
 type: system_requirement
-status: approved
+status: proposed
 title: Minify JavaScript and CSS
-text: >-
-  Minify JavaScript and CSS to remove whitespace and comments and shorten names, reducing
-  transfer size and parse time.
+text: Minify JavaScript and CSS to remove whitespace and comments and shorten names,
+  reducing transfer size and parse time.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Web Vitals: JavaScript and Resources — Minification"
+  source_ref: 'Google Web Vitals: JavaScript and Resources — Minification'

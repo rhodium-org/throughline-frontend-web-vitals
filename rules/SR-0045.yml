@@ -1,12 +1,12 @@
 uid: SR-0045
 type: system_requirement
-status: approved
+status: proposed
 title: Serve fonts in WOFF2
-text: >-
-  Serve web fonts in the WOFF2 format, which is supported everywhere and offers the best
-  compression of the web font formats.
+text: Serve web fonts in the WOFF2 format, which is supported everywhere and offers
+  the best compression of the web font formats.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google Web Vitals: Web Fonts — WOFF2"
+  source_ref: 'Google Web Vitals: Web Fonts — WOFF2'

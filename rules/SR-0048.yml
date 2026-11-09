@@ -1,12 +1,12 @@
 uid: SR-0048
 type: system_requirement
-status: approved
+status: proposed
 title: Preconnect to third-party font origins
-text: >-
-  When loading fonts from a third-party origin, preconnect to that origin early in the
-  <head>, including a crossorigin connection for the font files themselves.
+text: When loading fonts from a third-party origin, preconnect to that origin early
+  in the <head>, including a crossorigin connection for the font files themselves.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google Web Vitals: Web Fonts — Preconnect"
+  source_ref: 'Google Web Vitals: Web Fonts — Preconnect'

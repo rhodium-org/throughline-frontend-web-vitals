@@ -1,12 +1,13 @@
 uid: SR-0025
 type: system_requirement
-status: approved
+status: proposed
 title: Do not insert content above existing content
-text: >-
-  Do not insert new content above content the user is already viewing unless it is in
-  response to a user interaction, so nothing shifts unexpectedly beneath them.
+text: Do not insert new content above content the user is already viewing unless
+  it is in response to a user interaction, so nothing shifts unexpectedly beneath
+  them.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google Web Vitals: Optimize CLS — Inserted Content"
+  source_ref: 'Google Web Vitals: Optimize CLS — Inserted Content'

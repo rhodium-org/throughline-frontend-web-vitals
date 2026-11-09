@@ -1,11 +1,12 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: Core Web Vitals Thresholds
-text: >-
-  The three Core Web Vitals metrics, what each measures, and the target each must meet.
+text: The three Core Web Vitals metrics, what each measures, and the target each
+  must meet.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Web Vitals: Core Web Vitals — Thresholds"
+  source_ref: 'Google Web Vitals: Core Web Vitals — Thresholds'

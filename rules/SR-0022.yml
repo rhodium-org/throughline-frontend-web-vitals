@@ -1,13 +1,13 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Set explicit width and height on images and video
-text: >-
-  Always include width and height attributes on image and video elements, or reserve the
-  space with CSS aspect-ratio, so the browser reserves the correct layout box before the
-  media loads.
+text: Always include width and height attributes on image and video elements, or
+  reserve the space with CSS aspect-ratio, so the browser reserves the correct layout
+  box before the media loads.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google Web Vitals: Optimize CLS — Media Dimensions"
+  source_ref: 'Google Web Vitals: Optimize CLS — Media Dimensions'
